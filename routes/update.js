@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var CrimeCollection = require('../models/CrimeCollection');
+var CrimeCollection = require('../models/crimesModel');
 
 //Update by location
 router.get('/updateLocation/:latitude/:street/:longitude', (req, res)=>{
